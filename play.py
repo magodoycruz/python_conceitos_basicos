@@ -13,3 +13,14 @@ print(pessoas[1:3]) #Paulo, Clara
 numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 sequencia = list(range(1,5)) #[1, 2, 3, 4]
 sequencia_par = list(range(0,10,2)) #[0, 2, 4, 6, 8]
+
+# Dicionarios
+capitais = {
+    'Brasil': 'Brasilia', 
+    'França': 'Paris', 
+    'Japão': 'Tóquio'
+}
+print(capitais['Brasil'])
+print('Brasil' in capitais)
+
+print(capitais.get('Inglaterra', 'Não foi encontrado')) # Se não encontrar o valor, retorna uma mensagem ou valor default
